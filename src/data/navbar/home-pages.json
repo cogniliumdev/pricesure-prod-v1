@@ -1,0 +1,218 @@
+[
+  {
+    "id": 1,
+    "text": "HOME",
+    "link": "/"
+  },
+  {
+    "id": 2,
+    "text": "ELECTRONICS",
+    "link": "/",
+    "submenu": [
+      {
+        "id": 2.1,
+        "title": "mobile phones",
+        "lists": [
+          {
+            "text": "nokia mobiles",
+            "link": "/",
+            "badge": null
+          },
+          {
+            "text": "iphone",
+            "link": "/",
+            "badge": null
+          },
+          {
+            "text": "realme mobiles",
+            "link": "/",
+            "badge": null
+          },
+          {
+            "text": "infinix mobiles",
+            "link": "/",
+            "badge": null
+          }
+        ]
+      },
+      {
+        "id": 2.2,
+        "title": "laptops",
+        "lists": [
+          {
+            "text": "refurbished laptops",
+            "link": "/",
+            "badge": null
+          },
+          {
+            "text": "traditional laptops",
+            "link": "/",
+            "badge": null
+          }
+        ]
+      },
+      {
+        "id": 2.3,
+        "title": "appliances",
+        "lists": [
+          {
+            "text": "refrigerators",
+            "link": "/",
+            "badge": null
+          },
+          {
+            "text": "air conditioner",
+            "link": "/",
+            "badge": null
+          },
+          {
+            "text": "air cooler",
+            "link": "/",
+            "badge": null
+          }
+        ]
+      }
+    ],
+    "mega_menu": false,
+    "promo": false
+  },
+  {
+    "id": 3,
+    "text": "MENS",
+    "link": "/",
+    "submenu": [
+      {
+        "id": 3.1,
+        "title": "clothing",
+        "lists": [
+          {
+            "text": "casual shirts",
+            "link": "/",
+            "badge": null
+          },
+          {
+            "text": "jeans",
+            "link": "/",
+            "badge": null
+          },
+          {
+            "text": "shorts",
+            "link": "/",
+            "badge": null
+          }
+        ]
+      },
+      {
+        "id": 3.2,
+        "title": "accessories",
+        "lists": [
+          {
+            "text": "belts",
+            "link": "/",
+            "badge": null
+          },
+          {
+            "text": "sunglasses",
+            "link": "/",
+            "badge": null
+          }
+        ]
+      },
+      {
+        "id": 3.3,
+        "title": "foot wear",
+        "lists": [
+          {
+            "text": "sneakers",
+            "link": "/",
+            "badge": null
+          },
+          {
+            "text": "formal shoes",
+            "link": "/",
+            "badge": null
+          },
+          {
+            "text": "boots",
+            "link": "/",
+            "badge": null
+          }
+        ]
+      }
+    ],
+    "mega_menu": false
+  },
+
+  {
+    "id": 5,
+    "text": "WOMENS",
+    "link": "/",
+    "submenu": [
+      {
+        "id": 3.1,
+        "title": "clothing",
+        "lists": [
+          {
+            "text": "sarees",
+            "link": "/",
+            "badge": null
+          },
+          {
+            "text": "shalwar kameez",
+            "link": "/",
+            "badge": null
+          },
+          {
+            "text": "hijabs",
+            "link": "/",
+            "badge": null
+          }
+        ]
+      },
+      {
+        "id": 3.2,
+        "title": "accessories",
+        "lists": [
+          {
+            "text": "clutches",
+            "link": "/",
+            "badge": null
+          },
+          {
+            "text": "hair accessories",
+            "link": "/",
+            "badge": null
+          },
+          {
+            "text": "smart watches",
+            "link": "/",
+            "badge": null
+          }
+        ]
+      },
+      {
+        "id": 3.3,
+        "title": "foot wear",
+        "lists": [
+          {
+            "text": "sandals",
+            "link": "/",
+            "badge": null
+          },
+          {
+            "text": "flat shoes",
+            "link": "/",
+            "badge": null
+          },
+          {
+            "text": "heels",
+            "link": "/",
+            "badge": null
+          }
+        ]
+      }
+    ],
+    "mega_menu": false,
+    "promo": false
+  }
+]

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url><loc>https://www.pricesure.io</loc><lastmod>2022-09-30T13:10:19.973Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://www.pricesure.io/admin-dashboard</loc><lastmod>2022-09-30T13:10:19.973Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://www.pricesure.io/category</loc><lastmod>2022-09-30T13:10:19.973Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://www.pricesure.io/compare</loc><lastmod>2022-09-30T13:10:19.973Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://www.pricesure.io/login</loc><lastmod>2022-09-30T13:10:19.973Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://www.pricesure.io/products</loc><lastmod>2022-09-30T13:10:19.973Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://www.pricesure.io/register</loc><lastmod>2022-09-30T13:10:19.973Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://www.pricesure.io/search</loc><lastmod>2022-09-30T13:10:19.973Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://www.pricesure.io/server-sitemap.xml</loc><lastmod>2022-09-30T13:10:19.973Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://www.pricesure.io/wishlist</loc><lastmod>2022-09-30T13:10:19.973Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://www.pricesure.io/products/A1-Smart-Watch</loc><lastmod>2022-09-30T13:10:19.973Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://www.pricesure.io/products/A4-Paper</loc><lastmod>2022-09-30T13:10:19.973Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://www.pricesure.io/products/A4tech-Bloody</loc><lastmod>2022-09-30T13:10:19.973Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+</urlset>

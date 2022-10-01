@@ -1,0 +1,219 @@
+[
+  {
+    "title": "electronic devices",
+    "submenu": [
+      {
+        "title": "smart phones",
+        "submenu": [
+            {
+                "title": "nokia mobiles"
+            },
+            {
+                "title": "apple iphones"
+            },
+            {
+                "title": "xiaomi phones"
+            },
+            {
+                "title": "redmi mobiles"
+            },
+            {
+                "title": "realme mobiles"
+            },
+            {
+                "title": "oppo mobile phones"
+            },
+            {
+                "title": "oneplus mobiles"
+            },
+            {
+                "title": "infinix mobiles"
+            },
+            {
+                "title": "honor mobiles"
+            },
+            {
+                "title": "tecno mobiles"
+            }
+        ]
+      },
+      {
+        "title": "feature phones",
+        "submenu": [
+            {
+                "title": "feature phones"
+            }
+        ]
+      },
+      {
+        "title": "tablets",
+        "submenu": [
+            {
+                "title": "tablets"
+            },
+            {
+                "title": "IOS tablets"
+            },
+            {
+                "title": "windows tablets"
+            },
+            {
+                "title": "android tablets"
+            },
+            {
+                "title": "amazon tablets"
+            }
+        ]
+      },
+      {
+        "title": "laptops",
+        "submenu": [
+            {
+                "title": "gaming laptops"
+            },
+            {
+                "title": "refurbished laptops"
+            },
+            {
+                "title": "traditional laptops"
+            },
+            {
+                "title": "notebooks"
+            },
+            {
+                "title": "reversible laptops"
+            },
+            {
+                "title": "detechable laptops"
+            }
+        ]
+      },
+      {
+        "title": "desktops",
+        "submenu": [
+            {
+                "title": "gamming desktops"
+            },
+            {
+                "title": "All-In-One"
+            },
+            {
+                "title": "DIY"
+            }
+        ]
+      },
+      {
+        "title": "smart watches",
+        "submenu": [
+            {
+                "title": "smart watches"
+            }
+        ]
+      },
+      {
+        "title": "gaming consoles",
+        "submenu": [
+            {
+                "title": "playstation consoles"
+            },
+            {
+                "title": "playstation games"
+            },
+            {
+                "title": "playstation controllers"
+            },
+            {
+                "title": "nintendo games"
+            },
+            {
+                "title": "xbox games"
+            }
+        ]
+      },
+      {
+        "title": "cameras & drones",
+        "submenu": [
+            {
+                "title": "videos camera"
+            },
+            {
+                "title": "DSLR"
+            },
+            {
+                "title": "drones"
+            },
+            {
+                "title": "point & shoot"
+            },
+            {
+                "title": "instant cameras"
+            }
+        ]
+      },
+      {
+        "title": "security cameras",
+        "submenu": [
+            {
+                "title": "IP security cameras"
+            }
+        ]
+      },
+      {
+        "title": "apple",
+        "submenu": [
+            {
+                "title": "apple display"
+            },
+            {
+                "title": "mac mini"
+            },
+            {
+                "title": "mac mini"
+            },
+            {
+                "title": "macbook pro retina display"
+            },
+            {
+                "title": "mac desktop"
+            }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "electronic accessories",
+    "submenu": []
+  },
+  {
+    "title": "health and beauty",
+    "submenu": []
+  },
+  {
+    "title": "women's fashion",
+    "submenu": []
+  },
+  {
+    "title": "men's fashion",
+    "submenu": []
+  },
+  {
+    "title": "TV and home appliances",
+    "submenu": []
+  },
+  {
+    "title": "sports and outdoor",
+    "submenu": []
+  },
+  {
+    "title": "watches, bags & jewellery",
+    "submenu": []
+  },
+  {
+    "title": "automotive",
+    "submenu": []
+  },
+  {
+    "title": "health and care",
+    "submenu": []
+  }
+]

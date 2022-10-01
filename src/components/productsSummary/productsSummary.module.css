@@ -1,0 +1,73 @@
+.mainContainer {
+  padding: 60px;
+}
+
+.subContainer {
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.mainHeading {
+  color: black;
+  font-size: 1.6vmax;
+  font-weight: 500;
+}
+
+.description {
+  color: black;
+  font-size: 1.3vmax;
+  font-weight: 300;
+}
+
+.readMoreBtn {
+  border: 0px;
+  background-color: white;
+  color: blue;
+  font-size: 1.3vmax;
+  margin-top: 15px;
+}
+
+@media only screen and (max-width: 1100px) {
+  .mainHeading {
+    font-size: 2vmax;
+    font-weight: 500;
+  }
+
+  .description {
+    color: black;
+    font-size: 1.6vmax;
+    font-weight: 300;
+  }
+
+  .mainContainer {
+    padding: 30px;
+  }
+
+  .readMoreBtn {
+    font-size: 1.5vmax;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .mainHeading {
+    font-size: 2.5vmax;
+    font-weight: 500;
+  }
+
+  .description {
+    color: black;
+    font-size: 2vmax;
+    font-weight: 300;
+  }
+
+  .readMoreBtn {
+    font-size: 1.9vmax;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .mainContainer {
+    padding: 15px;
+  }
+}

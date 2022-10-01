@@ -1,0 +1,13 @@
+.slick-slider {
+  width: 1200px;
+  height: 400px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.slider-wrapper{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  
+}
