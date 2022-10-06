@@ -32,7 +32,7 @@ const PageProductDetails = ({ product }) => {
     return (
         <Fragment>
             <Head>
-                <title>{name + ' - Wokiee :: React Next JS Multipurpose eCommerce Template'}</title>
+                <title>{`Pricesure - ${product?.fields?.title}`}</title>
                 <meta
                     name="description"
                 // content={excerpt}

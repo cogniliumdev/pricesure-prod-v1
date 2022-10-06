@@ -14,7 +14,7 @@ const PromoBannerFlower = ({className}) => {
                     <Col sm={6} className="col-12-440width">
                         <div className="tt-promo02 text-center">
                             <Link href="/product/category/flower">
-                                <a><img src="/assets/images/skins/flowers/img-02.jpg" alt="wokiee"/></a>
+                                <a><img src="/assets/images/skins/flowers/img-02.jpg" alt="pricesure"/></a>
                             </Link>
 
                             <div className="tt-description">
@@ -35,7 +35,7 @@ const PromoBannerFlower = ({className}) => {
                     <Col sm={6} className="col-12-440width">
                         <div className="tt-promo02 text-center">
                             <Link href="/product/category/flower">
-                                <a><img src="/assets/images/skins/flowers/img-03.jpg" alt="wokiee"/></a>
+                                <a><img src="/assets/images/skins/flowers/img-03.jpg" alt="pricesure"/></a>
                             </Link>
 
                             <div className="tt-description">

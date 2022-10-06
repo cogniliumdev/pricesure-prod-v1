@@ -10,7 +10,7 @@ const FeaturedProductsTwo = ({className, products, limit}) => {
         <div className={`container-indent02 ${className}`}>
             <Container className="container-fluid-custom-mobile-padding">
                 <div className="tt-block-title text-left block-title-large">
-                    <h2 className="tt-title">More from<br/>the Wokiee Editors</h2>
+                    <h2 className="tt-title">More from<br/>the pricesure Editors</h2>
                     <div className="tt-description">Featured comic books.</div>
                 </div>
 

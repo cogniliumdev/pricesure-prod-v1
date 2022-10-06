@@ -11,7 +11,7 @@ const PromoBannerSix = ({className, data, containerFluid = true}) => {
                     {data.map(banner => (
                         <Col sm={6} key={banner.id}>
                             <div className={`tt-promo-box tt-one-child hover-type-4`}>
-                                <img src={banner.thumb} alt="wokiee promobanner"/>
+                                <img src={banner.thumb} alt="pricesure"/>
                                 <div className="tt-description tt-point-v-t tt-point-h-l">
                                     <div className="tt-description-wrapper text-left">
                                         <div className="tt-title-small">{parse(banner.subtitle)}</div>

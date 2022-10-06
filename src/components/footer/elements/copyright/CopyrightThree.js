@@ -8,7 +8,7 @@ const CopyrightThree = ({className, dark}) => {
                     <div className="tt-col-center">
                         <div className="tt-col-item">
                             <div className="tt-box-copyright ht-copy">
-                                &copy; Wokiee {new Date().getFullYear()}. Made with <i className="text-danger icon-h-37"/> by <a
+                                &copy; pricesure {new Date().getFullYear()}. Made with <i className="text-danger icon-h-37"/> by <a
                                 href="https://hasthemes.com" target="_blank" rel="noopener noreferrer">HasThemes</a>.
                             </div>
                         </div>

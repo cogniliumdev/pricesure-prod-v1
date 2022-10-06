@@ -18,12 +18,12 @@ const WishlistPage = () => {
   const { wishlist } = useContext(WishlistContext);
   const logo = "/assets/images/no-placeholder/logo.png"
   const products = productsFormatter(allFavProductsApiData.data);
-  console.log(products);
+  // console.log(products);
 
   return (
     <Fragment>
       <Head>
-        <title>Wishlist - Wokiee :: React Next JS Multipurpose eCommerce Template</title>
+        <title>Pricesure - Wishlist</title>
       </Head>
 
       {/* <Header

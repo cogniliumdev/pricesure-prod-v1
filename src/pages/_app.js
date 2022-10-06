@@ -42,7 +42,7 @@ const Wokiee = ({ Component, pageProps }) => {
     return (
       <Fragment>
         <Head>
-          <title>Wokiee - React Next JS Multipurpose eCommerce Template</title>
+          <title>pricesure</title>
         </Head>
 
         <Header logo={logo} navData={navContent} />

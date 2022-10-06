@@ -4,7 +4,7 @@ const BrandTwo = ({ className, logo, link, thumb }) => {
     return (
         <Link href={link ? link : '/'}>
             <a className={`tt-promo-box tt-one-child ${className ? className : ''}`}>
-                <img src={thumb} alt="wokiee" />
+                <img src={thumb} alt="pricesure" />
                 <div className="tt-description">
                     <div className="tt-description-wrapper">
                         <div
@@ -13,7 +13,7 @@ const BrandTwo = ({ className, logo, link, thumb }) => {
                         >
                             <p style={{color:"black",fontWeight:"bold", fontSize:"20px"}}>visit</p>
                         </div>
-                        {/* <img   src={logo} alt="wokiee"/> */}
+                        {/* <img   src={logo} alt="pricesure"/> */}
                     </div>
                 </div>
             </a>

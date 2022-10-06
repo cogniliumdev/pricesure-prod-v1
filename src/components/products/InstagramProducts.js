@@ -17,7 +17,7 @@ const InstagramProducts = ({className}) => {
             <Container fluid={true}>
                 <Row>
                     <div className="tt-promo-fullwidth-02">
-                        <img src="/assets/images/promo/index15-promo-img-01.jpg" alt="wokiee instagram shop"/>
+                        <img src="/assets/images/promo/index15-promo-img-01.jpg" alt="pricesure"/>
                         <div className="tt-description">
                             <div className="tt-description-wrapper">
                                 <div className="tt-title-large">

@@ -30,7 +30,7 @@ const SliderThree = ({className, dots, arrows, data, sliderWrapper, contentAlign
 
                                             <Col md={{span:5, order:"last"}} xs={{span:12, order:"first"}}>
                                                 <div className="slide-thumb">
-                                                    <img src={slide.thumb} alt="wokiee-books"/>
+                                                    <img src={slide.thumb} alt="pricesure"/>
                                                 </div>
                                             </Col>
                                         </Row>

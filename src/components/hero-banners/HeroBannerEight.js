@@ -8,7 +8,7 @@ const HeroBannerEight = ({className}) => {
                     <Container>
                         <div className="tt-bg-img">
                             <img
-                                alt="wokiee-food"
+                                alt="pricesure"
                                 className="tt-bg-img zoomIn animated"
                                 src="/assets/images/skins/foods/mainpromo-img-01.png"
                             />

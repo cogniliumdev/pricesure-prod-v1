@@ -19,7 +19,7 @@ const ComparePage = () => {
     return (
         <Fragment>
             <Head>
-                <title>Compare - Wokiee :: React Next JS Multipurpose eCommerce Template</title>
+                <title>Pricesure - Compare</title>
             </Head>
 
             {/* <Header

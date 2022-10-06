@@ -32,7 +32,7 @@ const ProductLookbook = ({product}) => {
 
         return (
             <div className="tt-lookbook">
-                <img src={product.thumb} alt="lookbook-wokiee"/>
+                <img src={product.thumb} alt="pricesure"/>
                 {product.products.map((pro, i) => {
                     return (
                         <div

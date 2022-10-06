@@ -17,8 +17,8 @@ const PromoBannerCareSkin = ({className, bgImage}) => {
                                                 <span className="tt-base-color">It's made in Japan</span>
                                             </div>
                                             <p>
-                                                WOKIEE React Template is more than usual theme. It is a powerful design
-                                                tool. WOKIEE is outstanding Premium Shopify theme. It will be perfect
+                                            pricesure React Template is more than usual theme. It is a powerful design
+                                                tool. pricesure is outstanding Premium Shopify theme. It will be perfect
                                                 solution for your current or future webshop.
                                             </p>
                                             <Link href="/about">

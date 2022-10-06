@@ -20,8 +20,8 @@ const SearchBar = () => {
     return (
         <div className='d-flex'>
             <ReactiveBase
-                app="pricesure" // pricesure.
-                url="https://contentapi-searchbox-prod.vercel.app/" // https://contentapi-searchbox-prod.vercel.app/
+                app="pricesure_v3" // pricesure.
+                url="https://pricesure-searchbox-prod.vercel.app/" // https://contentapi-searchbox-prod.vercel.app/
             >
                 <DataSearch
                     className={style.searchbox}

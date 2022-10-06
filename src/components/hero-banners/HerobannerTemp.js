@@ -18,7 +18,7 @@ const HeroBannerTemp = ({ className }) => {
             <div className="tt-promo-fullwidth tt-layout-size-02">
               <img
                 src="/assets/images/promo/index20-promo-img-06.jpg"
-                alt="wokiee"
+                alt="pricesure"
               />
               <div className="tt-description tt-point-h-l">
                 <div className="tt-description-wrapper text-left">
@@ -39,7 +39,7 @@ const HeroBannerTemp = ({ className }) => {
               <a className="tt-promo-box hover-type-2 nomargin">
                 <img
                   src="/assets/images/promo/index20-promo-img-05.jpg"
-                  alt="wokiee"
+                  alt="pricesure"
                 />
                 <div className="tt-description tt-point-v-b">
                   <div className="tt-description-wrapper">

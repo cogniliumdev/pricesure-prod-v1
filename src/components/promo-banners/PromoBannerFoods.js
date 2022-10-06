@@ -8,7 +8,7 @@ const PromoBannerFoods = ({className}) => {
                 <Row noGutters>
                     <Col xs={12}>
                         <div className="tt-promo-fullwidth">
-                            <img src="/assets/images/skins/foods/promo-img-01.jpg" alt="wokiee-food"/>
+                            <img src="/assets/images/skins/foods/promo-img-01.jpg" alt="pricesure"/>
                             <div className="tt-description tt-point-h-l">
                                 <div className="tt-description-wrapper text-left">
                                     <div className="tt-title-large">
