@@ -3,10 +3,10 @@ import Account from "../elements/Account";
 import Settings from "../elements/Settings";
 import MiniCart from "../elements/MiniCart";
 import Hamburger from "../elements/Hamburger";
-import {useState, Fragment, memo} from "react";
+import { useState, Fragment, memo } from "react";
 import SearchBox from "../elements/SearchBoxOne";
 
-const HeaderAction = ({hamburger, search, cart, account, settings, mobileNavbarHandler}) => {
+const HeaderAction = ({ hamburger, search, cart, account, settings, mobileNavbarHandler }) => {
     const [isHidden, setIsHidden] = useState({
         searchBox: true,
         // miniCart: true,
@@ -66,6 +66,7 @@ const HeaderAction = ({hamburger, search, cart, account, settings, mobileNavbarH
                 />
             )} */}
 
+            {/* . */}
             {account && (
                 <Account
                     isHidden={isHidden.account}
