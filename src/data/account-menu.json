@@ -5,7 +5,6 @@
     "text": "Account",
     "link": "/admin-dashboard"
   },
-  
   {
     "id": 3,
     "iconClass": "icon-n-072",
@@ -29,11 +28,5 @@
     "iconClass": "icon-f-94",
     "text": "Register",
     "link": "/register"
-  },
-  {
-    "id": 7,
-    "iconClass": "icon-f-94",
-    "text": "SiteMap",
-    "link": "/products"
   }
 ]

@@ -3,24 +3,14 @@
     "id": 1,
     "media": "facebook",
     "username": "hasthemes",
-    "iconClass": "icon-g-64"
+    "iconClass": "icon-g-64",
+    "url": "https://www.facebook.com/Cognilium"
   },
   {
     "id": 2,
-    "media": "twitter",
+    "media": "Linkedin",
     "username": "hasthemes",
-    "iconClass": "icon-h-58"
-  },
-  {
-    "id": 3,
-    "media": "instagram",
-    "username": "hasthemes",
-    "iconClass": "icon-g-67"
-  },
-  {
-    "id": 4,
-    "media": "youtube",
-    "username": "hasthemes",
-    "iconClass": "icon-g-76"
+    "iconClass": "icon-g-68",
+    "url": "https://www.linkedin.com/company/cognilium-ai/"
   }
 ]

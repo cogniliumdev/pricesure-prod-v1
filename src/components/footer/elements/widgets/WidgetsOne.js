@@ -29,22 +29,22 @@ const WidgetsOne = ({ className, dark }) => {
                                 ))} */}
                                 <li>
                                     <Link href={`/category?category=casual shirts`}>
-                                        <a>casual shirts</a>
+                                        <a>Casual shirts</a>
                                     </Link>
                                 </li>
                                 <li>
                                     <Link href={`/category?category=polos`}>
-                                        <a>polos</a>
+                                        <a>Polos</a>
                                     </Link>
                                 </li>
                                 <li>
                                     <Link href={`/category?category=sneakers`}>
-                                        <a>sneakers</a>
+                                        <a>Sneakers</a>
                                     </Link>
                                 </li>
                                 <li>
                                     <Link href={`/category?category=jeans`}>
-                                        <a>jeans</a>
+                                        <a>Jeans</a>
                                     </Link>
                                 </li>
                             </ul>
@@ -79,7 +79,7 @@ const WidgetsOne = ({ className, dark }) => {
                                 {/* <p><span>Address:</span> 2548 Broaddus Maple Court Avenue, Madisonville KY 4783, USA</p> */}
                                 {/* <p><span>Phone:</span> +777 2345 7885; +777 2345 7886</p> */}
                                 <p><span>Hours:</span> 7 Days a week from 10 am to 6 pm</p>
-                                <p><span>E-mail:</span> <Link href="mailto:info@mydomain.com">info@mydomain.com</Link>
+                                <p><span>E-mail:</span> <Link href="/">sales@cognilium.ai</Link>
                                 </p>
                             </address>
                         </Widget>

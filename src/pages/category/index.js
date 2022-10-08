@@ -1,14 +1,10 @@
 import Head from "next/head";
-import { Fragment, useContext, useState, useEffect } from "react";
+import { Fragment} from "react";
 import Breadcrumb from "@components/ui/breadcrumb";
 import ShopGrid from "@components/shop/ShopGrid";
 import { HeaderOne as Header } from "@components/header";
 import { HeaderThree as Header3 } from "@components/header";
 import { FooterOne as Footer } from "@components/footer";
-import { ProductsContext } from "@global/ProductsContext";
-import { HomePagesNavData as navContent } from "@data/navbar";
-import withApollo from "../../hocs/withApollo";
-import { withSearchkit, withSearchkitRouting } from "@searchkit/client";
 import { ContentWrapperOne as ContentWrapper } from "@components/wrapper";
 import { useRouter } from "next/router";
 

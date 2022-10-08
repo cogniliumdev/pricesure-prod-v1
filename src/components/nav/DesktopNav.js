@@ -1,8 +1,10 @@
 import Link from "next/link";
 import PropTypes from "prop-types";
-import {Row, Col} from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
+import { capitalizeFirstLetter } from "../../global/globalFunctions/capitalizeFirstLetter.js"
 
-const DesktopNav = ({className, navData}) => {
+const DesktopNav = ({ className, navData }) => {
+
     return (
         <nav className={className}>
             <ul>
@@ -19,10 +21,10 @@ const DesktopNav = ({className, navData}) => {
                                             <Row className="tt-col-list">
                                                 {navItem?.submenu && navItem?.submenu.map(subItem => (
                                                     <div className={`col-sm-${navItem?.mega_menu ? 3 : 12}`}
-                                                         key={subItem.id}>
+                                                        key={subItem.id}>
                                                         <h6 className="tt-title-submenu">
                                                             <Link href={`/category?category=${subItem.title}`}>
-                                                                <span>{subItem.title}</span>
+                                                                <span>{capitalizeFirstLetter(subItem.title)}</span>
                                                             </Link>
                                                         </h6>
                                                         <ul className="tt-megamenu-submenu">
@@ -30,15 +32,15 @@ const DesktopNav = ({className, navData}) => {
                                                                 <li key={index} className={item.badge}>
                                                                     <Link href={`/category?category=${item.text}`}>
                                                                         <a>
-                                                                            {item.text}
+                                                                            {capitalizeFirstLetter(item.text)}
                                                                             {item.badge && (
                                                                                 <span
                                                                                     className={`tt-badge tt-${item.badge}`}>
-                                                                                {item.badge === 'coming_soon' && 'COMING SOON'}
+                                                                                    {item.badge === 'coming_soon' && 'COMING SOON'}
                                                                                     {item.badge === 'popular' && 'POPULAR'}
                                                                                     {item.badge === 'hot' && 'HOT'}
                                                                                     {item.badge === 'new' && 'NEW'}
-                                                                            </span>
+                                                                                </span>
                                                                             )}
                                                                         </a>
                                                                     </Link>
@@ -51,7 +53,7 @@ const DesktopNav = ({className, navData}) => {
                                                 {navItem?.promo && (
                                                     <Col lg={3}>
                                                         <Link href="/category" className="tt-promo-02">
-                                                            <a><img src={navItem?.promo} alt="promo"/></a>
+                                                            <a><img src={navItem?.promo} alt="promo" /></a>
                                                         </Link>
                                                     </Col>
                                                 )}

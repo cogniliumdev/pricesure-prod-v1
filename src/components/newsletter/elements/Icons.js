@@ -7,7 +7,7 @@ const SocialIcons = () => {
             {socialMedia.map(social => (
                 <li key={social.id}>
                     <SocialLink
-                        url={`https://www.${social.media}.com/${social.username}`}
+                        url={social.url}
                         className={social.iconClass}
                     />
                 </li>

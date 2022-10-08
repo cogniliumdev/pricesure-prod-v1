@@ -14,6 +14,8 @@ import { ContentWrapperOne as ContentWrapper } from "@components/wrapper";
 import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
+import ReactLoading from 'react-loading';
+
 
 const registerValidationSchema = yup.object().shape({
   firstName: yup.string().required("First name is required").min(2).max(20),
@@ -35,6 +37,7 @@ export default function Register() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [name, setName] = useState("");
+  const [isLoading, setIsLoading] = useState(false);
   const {
     register,
     handleSubmit,
@@ -45,7 +48,8 @@ export default function Register() {
   const logo = "/assets/images/no-placeholder/logo.png";
 
   const signUp = async (validatedValues) => {
-    const {email, password, firstName, lastName} = validatedValues;
+    const { email, password, firstName, lastName } = validatedValues;
+    setIsLoading(true);
     //POST form values
     try {
       const res = await axios.post("/api/auth/signup", {
@@ -60,6 +64,8 @@ export default function Register() {
     } catch (err) {
       console.log("ERROR OCOURED WHILE REGISTERING USER!", err);
       cogoToast.error(err.response.data.errorMsg);
+    } finally {
+      setIsLoading(false);
     }
   };
 
@@ -171,9 +177,15 @@ export default function Register() {
                             <div className="form-group">
                               <button
                                 onClick={handleSubmit(signUp)}
-                                className="btn btn-border"
+                                style={styles.loginBtn}
                               >
                                 CREATE
+                                {
+                                  isLoading &&
+                                  <div style={{ paddingLeft: "5px" }}>
+                                    <ReactLoading type={"spin"} color={"#0d6efd"} height={20} width={20} />
+                                  </div>
+                                }
                               </button>
                             </div>
                           </Col>
@@ -200,3 +212,18 @@ export default function Register() {
     </div>
   );
 }
+
+const styles = {
+  loginBtn: {
+    paddingLeft: 20,
+    paddingRight: 20,
+    paddingTop: 5,
+    paddingBottom: 5,
+    background: "none",
+    color: "#0d6efd",
+    border: "2px solid #0d6efd",
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center"
+  },
+};
