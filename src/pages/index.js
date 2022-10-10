@@ -42,6 +42,7 @@ const HomeFour = ({
     topDomains?.hits?.hits,
     allFavProductsApiData?.data
   );
+  console.log(topDomainsProducts)
 
   const logo = "/assets/images/no-placeholder/logo.png";
 
@@ -70,18 +71,20 @@ const HomeFour = ({
         />
         <br />
 
+
+        <Tending
+          title="Ads ."
+          // title={`Ads . ${topDomainsProducts[0].fields.domain}`}
+          subTitle=""
+          data={topDomainsProducts}
+        />
+
         <Tending
           title="DEALS OF THE DAY"
           subTitle=""
           data={topDiscountedProducts}
         />
         <br />
-
-        <Tending
-          title="TOP DOMAINS"
-          subTitle=""
-          data={topDomainsProducts}
-        />
 
         <BrandsLogo
           title="COLLECTIONS"

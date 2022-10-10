@@ -348,8 +348,8 @@ const ShopGrid = ({
 
 
   console.log(error);
-  console.log(data);
-  console.log(products, "@@@@@@@@@@@@@@");
+  // console.log(data);
+  // console.log(products, "@@@@@@@@@@@@@@");
 
 
   return (

@@ -1,11 +1,9 @@
 import Link from "next/link";
 import data from "@data/account-menu.json";
 import React, { useState, useRef, useEffect } from 'react'
-import { useRouter } from "next/router";
 
 const Account = ({ className, isHidden, openHandler, closeHandler }) => {
     const node = useRef();
-    const router = useRouter();
 
     const clickOutside = (e) => {
         if (node.current?.contains(e.target)) {

@@ -1,8 +1,5 @@
 import Link from "next/link";
-import { useState } from "react";
 import PropTypes from "prop-types";
-import { useRouter } from "next/router";
-import { Col, Row } from "react-bootstrap";
 
 // Icons Import
 import Shoe from "@assets/images/svg/shoe.svg";
@@ -15,20 +12,43 @@ import Accessories from "@assets/images/svg/accessories.svg";
 import NewArrivals from "@assets/images/svg/new-arrivals.svg";
 import SpecialOffers from "@assets/images/svg/special-offers.svg";
 import styles from "./dropDown.module.css";
+import React, { useState, useRef, useEffect } from 'react'
+
 
 const CategoriesMenu = ({ className, initialVisibility }) => {
-
+  const node = useRef();
   const [dropdownToggle, setDropdownToggle] = useState(initialVisibility);
-  const router = useRouter();
+
+  const clickOutside = (e) => {
+    if (node.current?.contains(e.target)) {
+      // inside click
+      // console.log('clicked inside')
+      return;
+    }
+    // outside click
+    // console.log('clicked outside scope')
+    setDropdownToggle(false)
+  }
+
+  useEffect(() => {
+    document.addEventListener('mousedown', clickOutside);
+
+    // clean up function before running new effect
+    return () => {
+      document.removeEventListener('mousedown', clickOutside);
+    }
+  }, [initialVisibility])
+
   const handlemobiles = (e) => {
     console.log(e.target.value);
   };
+
   const onToggleHandler = () => {
     setDropdownToggle((prevState) => !prevState);
   };
 
   return (
-    <div className={`tt-menu-categories ${className ? className : ""}`}>
+    <div ref={node} className={`tt-menu-categories ${className ? className : ""}`}>
       <button
         className={`tt-dropdown-toggle ${dropdownToggle ? "active" : ""}`}
         onClick={onToggleHandler}

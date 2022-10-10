@@ -538,48 +538,52 @@ const ShopFilters = (props) => {
         )} */}
       </ShopWidget>
 
-      {/* /////////////////PRICE//////////////////////// */}
-
-      <ShopWidget title="BY PRICE">
-        <div className="d-flex">
-          <div className="input-container">
-            <input
-              type="number"
-              value={minprice}
-              onChange={(e) => setMinprice(e.target.value)}
-              min={0}
-            />
-            <label>Min</label>
+      {/* /////////////////>> PRICE <<//////////////////////// */}
+      
+      {/* remove d-none property to make it visible */}
+      <div className="d-none"> 
+        <ShopWidget title="BY PRICE">
+          <div className="d-flex">
+            <div className="input-container">
+              <input
+                type="number"
+                value={minprice}
+                onChange={(e) => setMinprice(e.target.value)}
+                min={0}
+              />
+              <label>Min</label>
+            </div>
+            <div className="input-container">
+              <input
+                type="number"
+                value={maxprice}
+                onChange={(e) => setMaxprice(e.target.value)}
+                min={0}
+              />
+              <label>Max</label>
+            </div>
           </div>
-          <div className="input-container">
-            <input
-              type="number"
-              value={maxprice}
-              onChange={(e) => setMaxprice(e.target.value)}
-              min={0}
-            />
-            <label>Max</label>
+
+          {/* min max error  */}
+          {showPriceRangeError &&
+            <label style={{ color: "red", marginTop: "-20px", marginBottom: "5px" }}>
+              Min price must be smaller than max price.
+            </label>
+          }
+
+          <div className="d-flex justify-content-start">
+            <button
+              className="btn-primary"
+              // onClick={submitForm}
+              style={{ borderRadius: 4, paddingLeft: 15, paddingRight: 15, paddingTop: 3, paddingBottom: 3 }}
+            >
+              Search
+            </button>
           </div>
-        </div>
 
-        {/* min max error  */}
-        {showPriceRangeError &&
-          <label style={{ color: "red", marginTop: "-20px", marginBottom: "5px" }}>
-            Min price must be smaller than max price.
-          </label>
-        }
+        </ShopWidget>
+      </div>
 
-        <div className="d-flex justify-content-start">
-          <button
-            className="btn-primary"
-            // onClick={submitForm}
-            style={{ borderRadius: 4, paddingLeft: 15, paddingRight: 15, paddingTop: 3, paddingBottom: 3 }}
-          >
-            Search
-          </button>
-        </div>
-
-      </ShopWidget>
     </Fragment>
   );
 };
